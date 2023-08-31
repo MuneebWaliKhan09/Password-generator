@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(19, 78, 228));
+}
+
+.generator {
+    width: 752px;
+    min-height: 203px;
+    background: rgb(29 119 255);
+    border-radius: 100px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.generator input {
+    width: 90%;
+    padding: 38px 0 5px 0;
+    margin: 6px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.644);
+    outline: none;
+    text-align: center;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.generator input::selection {
+    color: rgb(150, 150, 150);
+}
+
+.cont .h1 {
+    font-family: sans-serif;
+    background: rgb(0, 0, 0);
+    padding: 5px 19px;
+    border: 2px solid rgba(255, 255, 255, 0.836);
+    border-radius: 39px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    max-width: 84%;
+    gap: 20px;
+}
+
+.buttons button {
+    border-radius: 18px;
+    padding: 4px 6px;
+    background: black;
+    color: white;
+    line-height: 1.4;
+    font-size: 13px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 4px #919191;
+    border: none;
+}
+
+.buttons button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+::placeholder {
+    color: rgb(160, 160, 160);
+}
