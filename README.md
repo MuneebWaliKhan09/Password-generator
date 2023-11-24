@@ -1,6 +1,6 @@
 # Password-generator
 
-![Blog Thumbnail](https://github.com/MuneebWaliKhan09/personal-Blog/blob/main/public/ss1.png?raw=true](https://github.com/MuneebWaliKhan09/Password-generator/blob/main/screenshot_11_24_2023_1-53-27%20PM.png?raw=true)))
+![Blog Thumbnail](https://github.com/MuneebWaliKhan09/Password-generator/blob/main/screenshot_11_24_2023_1-53-27%20PM.png?raw=true)))
 
 
 Password generator with Strong , weak , super Strong , and Funny passwords generator
